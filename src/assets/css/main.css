@@ -1,0 +1,22 @@
+.header-ellipse {
+    block-size: 75px;
+    background-image: url("../afbeeldingen/header-ellipse.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header img {
+    padding-inline-start: 50px;
+    margin-block-start: -40px;
+}
+
+footer {
+    block-size: 75px;
+    background-color: #00aaa2;
+    clip-path: ellipse(300px 71px at -0.25% 103.36%);
+}
+
+.hello {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
