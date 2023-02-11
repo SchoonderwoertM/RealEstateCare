@@ -1,26 +1,35 @@
 <template>
+  <v-app>
     <AppHeader />
-    <HelloWorld msg="Hello World" />
+    <v-main>
+      <HelloWorld />
+    </v-main>
     <AppFooter />
+  </v-app>
 </template>
 
 <script>
-import AppHeader from "@/components/AppHeader.vue";
-import HelloWorld from "@/components/HelloWorld.vue";
-import AppFooter from "@/components/AppFooter.vue";
+import HelloWorld from "@/components/HelloWorld";
+import AppHeader from "@/components/AppHeader";
+import AppFooter from "@/components/AppFooter";
 
 export default {
   name: "App",
+
   components: {
-    AppHeader,
     HelloWorld,
+    AppHeader,
     AppFooter,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
 
 <style>
-@import '@/assets/css/main.css';
+@import "@/assets/css/main.css";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
