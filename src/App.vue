@@ -2,14 +2,14 @@
   <v-app>
     <AppHeader />
     <v-main>
-      <HelloWorld />
+      <Dashboard />
     </v-main>
     <AppFooter />
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld";
+import Dashboard from "@/components/Dashboard";
 import AppHeader from "@/components/AppHeader";
 import AppFooter from "@/components/AppFooter";
 
@@ -17,7 +17,7 @@ export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    Dashboard,
     AppHeader,
     AppFooter,
   },
