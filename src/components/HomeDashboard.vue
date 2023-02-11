@@ -61,6 +61,6 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "HomeDashboard",
 };
 </script>

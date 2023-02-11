@@ -1,25 +1,25 @@
 <template>
   <v-app>
-    <AppHeader />
+    <Header />
     <v-main>
       <Dashboard />
     </v-main>
-    <AppFooter />
+    <Footer />
   </v-app>
 </template>
 
 <script>
-import Dashboard from "@/components/Dashboard";
-import AppHeader from "@/components/AppHeader";
-import AppFooter from "@/components/AppFooter";
+import Dashboard from "@/components/HomeDashboard";
+import Header from "@/components/AppHeader";
+import Footer from "@/components/AppFooter";
 
 export default {
   name: "App",
 
   components: {
     Dashboard,
-    AppHeader,
-    AppFooter,
+    Header,
+    Footer,
   },
 
   data: () => ({
